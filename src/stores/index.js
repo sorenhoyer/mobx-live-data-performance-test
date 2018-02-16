@@ -47,6 +47,6 @@ export default class RootStore {
         }
       }
     }
-    console.log(self.sensors.values())
+    
   }
 }

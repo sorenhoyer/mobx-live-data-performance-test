@@ -1,4 +1,7 @@
+import {observable} from 'mobx';
+
 export default class Queue {
+  @observable data;
   constructor(maxSize) {
     this.maxSize = maxSize;
     this.size = 0;
