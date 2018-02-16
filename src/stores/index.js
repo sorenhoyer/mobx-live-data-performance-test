@@ -1,5 +1,5 @@
 import {observable} from 'mobx';
 
-export default rootStore = observable({
-  sensors: []
-});
+export default class RootStore {
+  @observable sensors = [];
+}
