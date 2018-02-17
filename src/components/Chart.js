@@ -1,5 +1,6 @@
 import React from 'react';
 import Highcharts from 'highcharts';
+import Boost from 'highcharts/modules/boost.js';
 //import { observer } from 'mobx-react';
 
 import { 
@@ -14,6 +15,8 @@ import {
   SplineSeries,
   Tooltip
 } from 'react-jsx-highcharts';
+
+Boost( Highcharts );
 
 const Chart = ({
   className,
